@@ -45,3 +45,11 @@ display statistics based on the items in this list
  - turn sums into a *collections.Counter* object
  - display by desc. probability or by result number based on user's choice
 
+### Making Changes
+
+Version 1 (see *[src/diceroller_0.py](https://raw.githubusercontent.com/ctsf1/alt3/master/src/diceroller_0.py)*) - Main program and control flow created
+
+Version 2 (see *[src/diceroller_1.py](https://raw.githubusercontent.com/ctsf1/alt3/master/src/diceroller_1.py)*) - Wrapped the various components in functions for clarity
+
+Version 3 (Current) (see *[src/diceroller.py](https://raw.githubusercontent.com/ctsf1/alt3/master/src/diceroller.py)*) - switched to using *numpy.random.randint* for calculating dicerolls, as it allows for the calculation of all the rolls at once, and is faster than looping through manually
+
