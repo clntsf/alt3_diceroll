@@ -53,3 +53,8 @@ Version 2 (see *[src/diceroller_1.py](https://raw.githubusercontent.com/ctsf1/al
 
 Version 3 (Current) (see *[src/diceroller.py](https://raw.githubusercontent.com/ctsf1/alt3/master/src/diceroller.py)*) - switched to using *numpy.random.randint* for calculating dicerolls, as it allows for the calculation of all the rolls at once, and is faster than looping through manually
 
+### Conclusions
+
+ - An initially daunting problem is made much more simple by designing and implementing the bare-bones of the algorithm and fleshing it out as we go
+ - By using Python's existing support for modules we can refactor our code to accelerate it by many tens/hundreds of times compared to a naïve implementation
+ - While a program's performance is ultimately its most important aspect, it is incredibly difficult for others to understand it, take inspiration from it or maintain it if it is not made readable by following clean coding habits
