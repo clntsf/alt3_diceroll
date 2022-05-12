@@ -6,12 +6,15 @@ def get_freq(d_num, d_max, d_sum):
 
     return sum(
         get_freq(d_num-1, d_max, d_sum-d_res)
-        for d_res in range(1,d_max+1)
-        )
+        for d_res in range( 1,d_max+1 )
+    )
 
 def get_sum_freq_list(d_num, d_max):
     num_outcomes = d_max**d_num
-    return [(S, round(100*get_freq(d_num, d_max, S)/num_outcomes,2)) for S in range(d_num, d_max*d_num + 1)]
+    return [
+        ( S, round(100*get_freq(d_num, d_max, S)/num_outcomes,2) )
+        for S in range( d_num, d_max*d_num + 1 )
+    ]
 
 if __name__ == "__main__":
     num, sides = 2, 6

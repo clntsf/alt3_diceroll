@@ -53,6 +53,8 @@ Version 2 (see *[src/diceroller_1.py](https://raw.githubusercontent.com/ctsf1/al
 
 Version 3 (Current) (see *[src/diceroller.py](https://raw.githubusercontent.com/ctsf1/alt3/master/src/diceroller.py)*) - switched to using *numpy.random.randint* for calculating dicerolls, as it allows for the calculation of all the rolls at once, and is faster than looping through manually
 
+Version 3.5 - Added idealized percentages to the display by way of [src/prob_calc.py](https://raw.githubusercontent.com/ctsf1/alt3/master/src/prob_calc.py)
+
 ### Conclusions
 
  - An initially daunting problem is made much more simple by designing and implementing the bare-bones of the algorithm and fleshing it out as we go
