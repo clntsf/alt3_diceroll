@@ -24,6 +24,7 @@ def display_probabilities(disp_by_prob: bool, counter: Counter, num_rolls: int, 
 
     print(f"\n\t\tResults: \n{'-'*40}\n")
     for (k,v) in prob:
+        # print(f"Sum {k} | Rolls {v} | pct {100*v/num_rolls}% | ideal % {ideals[k]}")
         ideal_str = f" / {ideals[k]}% ideal)" if ideals != None else ")"
         cols = [
             f"Sum of {k}".ljust(lj1),
