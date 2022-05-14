@@ -19,7 +19,9 @@ display statistics based on the items in this list
 ### Useful modules / functions / objects
 
 *collections.Counter* - for getting occurence statistics from a list of numbers
+
 *time.sleep* - to sleep the process for small durations, just for looks
+
 *random.randint* - to generate random integers in the range [1,6] for the dicerolls
 
 ---
